@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/style.sass","../sass/_variables.sass","../sass/_mixins.sass"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;EACA;;;AAGJ;EACI,kBCTW;ECEX;EACA;EACA;EFOA;EACA;EACA;;AACA;EACI;;AAGA;EEhBJ;EACA;EACA;EFgBQ;EACA;EACA;EACA,WCpBU;;ADuBN;EACI,OC1BL;;AD2BC;EACI,OC5BL;ED6BK,YCzBP;ED0BO;;;AAGpB;EACI;EACA,aClCQ;EDmCR,OCtCY","file":"main.css"}

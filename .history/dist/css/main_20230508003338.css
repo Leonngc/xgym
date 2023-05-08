@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefins Sans";
+}
+
+.header {
+  background-color: #f3f7f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2431372549);
+  height: 10vh;
+}
+.header-logo {
+  width: 15vw;
+}
+.header-navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 22px;
+}
+.header-navbar ul a.active {
+  color: #7209b7;
+}
+.header-navbar ul a:hover {
+  color: #7209b7;
+  transition: 0.3s;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  color: #333333;
+}
+
+/*# sourceMappingURL=main.css.map */
+section
+    background-image: url(assets/img/X GYM.jpg)

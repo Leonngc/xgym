@@ -1,0 +1,45 @@
+@use 'mixins'
+@use 'variables'
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Josefins Sans'
+
+
+.header
+    background-color: variables.$second-color
+    @include mixins.display
+    justify-content: space-between
+    box-shadow: 0px 0px 4px 0px #0000003e
+    height: 10vh
+    &-logo
+        width: 15vw
+    
+    &-navbar
+        ul
+            @include mixins.display
+            width: 30vw
+            list-style: none
+            justify-content: space-around
+            font-size: variables.$font-size-paragraph
+
+            a
+                &.active
+                    color: variables.$active-color
+                &:hover
+                    color: variables.$active-color
+                    transition: variables.$transition
+                    font-size: 24px
+           
+
+a
+    text-decoration: none
+    font-family: variables.$font-main 
+    color: variables.$primary-color
+
+section
+    background-image: url(../../assets/img/X\ GYM.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+  
